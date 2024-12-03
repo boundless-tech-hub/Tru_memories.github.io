@@ -1,0 +1,282 @@
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Black";
+}
+
+p{
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+/* Headings */
+
+.big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    color: black;
+    line-height: 1.5;
+}
+
+/* nav bar and title */
+
+#title{
+    background-color: brown;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    margin: 15px;
+    font-family: "Sacramento", cursive;
+    font-size: 3.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+
+/* title */
+.row1{
+    text-align: center;
+}
+
+.yes-button{
+    margin: 5% 3% 5% 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.no-button{
+    margin: 5% 3% 5% 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.yes-button:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 12px;
+}
+.no-button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 12px;
+}
+.title-img{
+    border: 1px solid rgb(175, 116, 116);
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 75%;
+    border-radius: 15%;
+    margin: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.title-img:hover{
+    width: 90%;
+    box-shadow: 2px 2px 15px grey;
+}
+.auto-carousel{
+    text-align: center;
+}
+
+@media (max-width: 830px){
+    .brand-name{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 490px){
+    .brand-name{
+        font-size: 25px;
+    }
+}
+
+/* features */
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+
+    
+}
+.feature-text{
+    color: #8f8f8f;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: brown;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:  rgb(175, 116, 116)
+}
+
+/* testimonials section */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: brown;
+    color: #fff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    color: black;
+    line-height: 1.5;
+}
+.poised{
+    width: 35%;
+    border-radius: 100%;
+    margin: 5%;
+    box-shadow: 2px 2px 15px grey;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.poised:hover{
+    box-shadow: 5px 5px 5px grey;
+    width: 45%;
+}
+
+
+/* press */
+
+#press{
+    background-color: brown;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-img{
+    border: 1px solid rgb(175, 116, 116);
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 75%;
+    border-radius: 15%;
+    margin: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.press-img:hover{
+    width: 90%;
+    box-shadow: 2px 2px 15px grey;
+}
+.row2{
+    padding: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing{
+    margin: 3%;
+    text-align: center;
+    line-height: 2.5;
+}
+.price-text{
+    font-size: 3rem;
+    color: black;
+    line-height: 1.5;
+}
+.check-list{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.row3{
+    text-align: center;
+    margin: 3%;
+        
+}
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.book-btn{
+    margin-bottom: 5%;
+    border: 1px solid black;
+}
+.book-btn:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.manual-carousel{
+    text-align: center;
+}
+.manual-image{
+    border: 1px solid rgb(175, 116, 116);
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    width: 75%;
+    border-radius: 15%;
+    margin: 5px;
+}
+
+/* CTA */
+
+#cta{
+    background-color: brown;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.last-button{
+    margin: 5% 3% 5% 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.last-button:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
